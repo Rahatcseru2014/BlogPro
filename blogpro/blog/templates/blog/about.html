@@ -1,0 +1,30 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="box-int">
+        <h1>About the Creator</h1>
+        <img src="{% static 'images/profile.jpg' %}" alt="profile face" height="500px" width="500px" class="box-intImage">
+        <h1>Rahat Rafiq</h1>
+        <h2>Carrier Interests</h2>
+        <p>
+            Software and Web applications development <br>
+            Java Programming <br>
+            Python Programming <br>
+            C# Programming <br>
+            Android Developement <br>
+        </p>
+
+        <h2>Other Interests</h2>
+        <p>
+            Movies<br>
+            Music<br>
+            Cricket<br>
+            Football<br>
+        </p>
+    </div>
+</div>
+
+{% endblock %}
